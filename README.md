@@ -56,7 +56,8 @@ PUSHER_APP_SECRET=
 PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"```
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+```
 
 Configure la base de datos en el archivo .env en la seccion de base de datos.
 
@@ -66,8 +67,10 @@ Luego de la configuración de la base de datos, corra los siguientes comandos en
 
 php artisan cache:clear
 
-php artisan migrate```
+php artisan migrate
+```
 
 Por ultimo para ver el proyecto en el navegador corra el comando 
 
-```php artisan serve```
+```php artisan serve
+```
