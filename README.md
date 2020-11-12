@@ -72,5 +72,4 @@ php artisan migrate
 
 Por ultimo para ver el proyecto en el navegador corra el comando 
 
-```php artisan serve
-```
+```php artisan serve```
