@@ -43,6 +43,10 @@
                     {{ __('Login') }}
                 </x-jet-button>
             </div>
+
+            <div class="mt-5">
+                <a href=" {{ route('register') }}" class="btn btn-primary btn-block" >Crear cuenta</a>
+            </div>
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
