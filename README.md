@@ -1,12 +1,12 @@
 ## Proyecto CRUD Laravel
 
-Proyecto CRUD Laravel para prueba tecnica.
+Proyecto CRUD Laravel para prueba técnica.
 
 ## Instrucciones para instalación
 
-Descarge el proyecto desde el repositorio o clone el proyecto en una carpeta local con el comando git clone.
+Descarge el proyecto desde el repositorio o clone el proyecto en una carpeta local con el comando ```git clone```.
 
-Dirijase a la carpeta del proyecto y desde una ventana de comandos escriba run install, esto instalara las dependencias del proyecto.
+Diríjase a la carpeta del proyecto y desde una ventana de comandos escriba ```composer install```, esto instalara las dependencias del proyecto.
 
 Cree un archivo .env con el siguiente contenido:
 
