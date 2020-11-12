@@ -10,7 +10,7 @@ Dirijase a la carpeta del proyecto y desde una ventana de comandos escriba run i
 
 Cree un archivo .env con el siguiente contenido:
 
-APP_NAME=Laravel
+```APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:b5Ccwfi5Fu45o2ZsJrIG1O/lTPdTQN2vX5kzirTZQMg=
 APP_DEBUG=true
@@ -56,18 +56,18 @@ PUSHER_APP_SECRET=
 PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"```
 
 Configure la base de datos en el archivo .env en la seccion de base de datos.
 
 Luego de la configuración de la base de datos, corra los siguientes comandos en una terminal 
 
-php artisan key:generate
+```php artisan key:generate
 
 php artisan cache:clear
 
-php artisan migrate
+php artisan migrate```
 
 Por ultimo para ver el proyecto en el navegador corra el comando 
 
-php artisan serve
+```php artisan serve```
